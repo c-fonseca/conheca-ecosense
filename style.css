@@ -78,6 +78,7 @@ nav {
     padding: 140px 0 100px;
     background: linear-gradient(135deg, #ffffff 0%, #f8fffe 100%);
     position: relative;
+    width: 100%;
 }
 
 .hero::before {
@@ -645,6 +646,10 @@ footer {
     .discount-grid {
         grid-template-columns: 1fr;
     }
+
+    .telaInicial-app{
+    padding: 0 2.7em 5em 0;
+}
 }
 
 @media (max-width: 480px) {
