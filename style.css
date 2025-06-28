@@ -605,6 +605,24 @@ nav {
     background: #134a47;
 }
 
+.mensagem-sucesso {
+    background-color: #d4f5f2;
+    color: #17726d;
+    padding: 16px;
+    border: 1px solid #20a39e;
+    border-radius: 12px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 20px;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+
 footer {
     display: flex;
     background: #17726d;
