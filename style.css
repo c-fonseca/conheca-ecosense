@@ -181,8 +181,8 @@ nav {
 }
 
 .telaInicial-app {
-    width: 270px;
-    height: 560px;
+    width: 268px;
+    height: 548px;
 }
 
 .phone-screen {
@@ -621,7 +621,6 @@ nav {
     from { opacity: 0; transform: translateY(10px); }
     to { opacity: 1; transform: translateY(0); }
 }
-
 
 footer {
     display: flex;
